@@ -1,0 +1,30 @@
+body{
+    background:url(https://carwad.net/sites/default/files/romantic-heart-pics-138160-5027801.jpg) no-repeat center center fixed ; 
+    background-size:cover ; 
+    font-family: 'Fascinate', cursive;
+
+}
+
+.rowHeight{
+    height:500px;
+}
+
+h1{
+    color:black;
+
+}
+.bg{
+    background-color:#c1c1c1;
+    opacity: 0.8;
+}
+.footer{
+    background-color: #fff;
+    
+    position: fixed ;
+    bottom:0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    padding:20px;
+    font-size:18px; 
+}

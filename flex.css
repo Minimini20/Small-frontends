@@ -1,0 +1,17 @@
+.first{
+    background-color: green;
+    height :50px; 
+}
+
+.sec{
+    background-color:blueviolet;
+    height :50px; 
+}
+.third {
+    background-color: crimson;
+    height:50px; 
+}
+.rowHeight {
+    background-color: black ; 
+    height :200px ; 
+}
