@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="cb.css">
+</head>
+<body>
+    <div class="head">
+        <img src="\Users\AlokK\Desktop\New folder\cb.png" alt ="cb" height =45px width=140px >
+    </div>
+        <div class="righthead " id="dropdownClick">
+            <ul>
+                <li>CAMPUS AMBASSADORS</li>
+                <li><a href="https://codingblocks.com/about.html">ABOUT US</a> <img src="\Users\AlokK\Desktop\New folder\drop.png" alt="drop" height=10.5px width=13px>
+                    <ul>
+                        <li>INTRODUCTION</li>
+                        <li>WHY CODING BLOCKS</li>
+                        <li>OUR TEAM</li>
+                        <li>BROCHURE</li>
+                        <li>REVIEWS</li>
+                        <li>WALL OF FAME</li>
+                        <li>EVENTS</li>
+                        <li>NEWSLETTER</li>
+                        <li>ALUMNI PORTAL</li>
+                    </ul>
+                </li>
+                <li>CLASSROOM COURSES
+                    <ul>
+                        <li>INDUSTRIAL TRANING</li>
+                        <li>JUNIOR
+                            <ul>
+                                <li>CODE4KIDS</li>
+                                <li>MATHS GEEK</li>
+                            </ul>
+                        </li>
+                        <li>BEGINNER
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </li>
+                        <li>DEVELOPMENT</li>
+                        <li>ADVANCED</li>
+                        <li>BOOTCAMP</li>
+                    </ul>
+                </li>
+                <li>ONLINE COURSES
+                    <ul>
+                        <li>INTERVIEW PREP COURSE</li>
+                        <li>LAUNCHPAND-c++(BASIC TO ADVANCED)</li>
+                        <li>ALGO++</li>
+                        <li>JAVA (DS + ALGO)</li>
+                        <li>WEB DEV -NODE.JS</li>
+                        <li>COMPETETIVE PROGRAMMING </li>
+                        <li>MACHINE LEARNING</li>
+                        <li>ANDROID APP DEV </li>
+                    </ul>
+                </li>
+                <li>RESOURCES
+                    <ul>
+                        <li>HACKERSBLOCK</li>
+                        <li>ONLINE IDE</li>
+                        <li>TUTORIAL</li>
+                        <li>BLOGS</li>
+                        <li>APP</li>
+                        <li>PODCAST</li>
+                    </ul>
+                </li>
+                <li>COMPETETIONS
+                    <ul>
+                        <li>HACKERSBLOCK</li>
+                        <li>BOSS</li>
+                    </ul>
+                </li> 
+                <li>CONTACT US
+                    <ul>
+                        <li>CENTERS</li>
+                        <li>SIGN UP</li>
+                        <li>CAREERS</li>
+                        <li>HIRE STUDENTS</li>
+                    </ul>
+                </li> 
+                <li class="drop">
+                    <a href = "javascript:void(0)" onclick="dropdownMenu ()">&#9776; </a> 
+                    
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="cont" id ="Section">
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        <script>
+            function dropdownMenu ()
+            {
+                var x = document.getElementById("dropdownClick");
+                if (x.className === "righthead")
+                {
+                    x.className += " responsive" ; 
+                }
+                else {
+                    x.className = "righthead" ; 
+                }
+            }
+
+        </script>
+
+
+
+     </body>  
+</html>

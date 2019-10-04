@@ -1,0 +1,113 @@
+*{
+    margin :0;
+    padding :0px 
+}
+.head{
+    height : 10vh ;    
+  display: inline-flex;
+    width:20vw;
+}
+.righthead{
+    height: 100vh ;
+    width:80vw ;
+}
+   
+.righthead ul {
+   list-style: none ;
+    margin-left: 5px ; 
+}
+
+.righthead > ul > li {
+    
+    color :#7A7C77;
+    font-size: 8pt ;
+    float:left ;
+    transform: translate(330px,-56px); 
+    word-spacing: 3pt;
+    letter-spacing: 1pt;
+    font-family:  sans-serif;
+   margin :10px ;
+   padding :5px;
+   height: 60px;
+}
+
+.righthead ul :hover{
+    color: red; 
+}
+
+.righthead ul ul {
+    display: none;
+}
+
+.righthead ul  :hover > ul {
+    display: block ; 
+ 
+
+}
+.righthead > ul ul li {
+    font-size: 8pt  ;
+    line-height: 25pt ;
+    color :#7A7C77;
+    width:180px ;
+    background-color: #292929 ;
+    padding-left:12px;
+    padding-top:10px;
+}
+
+.righthead li ul  {
+    position : absolute ;
+    margin-top: 30px;
+}
+a:link {
+    color: #7A7C77;
+    text-decoration: none ; 
+}
+a:visited {
+    color: #7A7C77;
+    text-decoration: none ;
+}
+a:hover{
+    color:red ;
+    text-decoration: none;
+}
+.righthead ul ul ul {
+position: absolute;
+margin-left:175px; 
+margin-top: -38px;
+}
+
+.righthead ul li.drop {
+    display: none;
+}
+
+@media screen and (max-width :680px)
+{
+    .righthead ul li:not(:nth-child(1)){
+        display:none ; 
+    }
+    .righthead ul li.drop {
+    display:block ; 
+    }
+    
+    ul.righthead.responsive{
+        position :relative; 
+    }
+    ul.righthead.responsive li {
+        display :inline ; 
+        float :none ; 
+    }
+    ul.righthead.responsive li a {
+        display : block ; 
+        text-align :left ; 
+    }
+}
+
+.cont {
+    width :100% ; 
+    margin : auto ; 
+    padding-top :4% ; 
+    padding-bottom :4% ; 
+}
+#Section {
+    background: linear-gradient(#076DFF,#65a5ff) ; 
+}

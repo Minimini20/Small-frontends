@@ -1,0 +1,8 @@
+#div1
+{
+    height: 70px;
+    width:70px;
+    background-color: coral;
+   /* transform : translate(140px ,30px) */
+   transform: scale(7);
+}
